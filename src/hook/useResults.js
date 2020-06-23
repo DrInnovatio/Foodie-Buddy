@@ -19,6 +19,7 @@ export default () => {
       setErrorMessage("Something went wrong!");
     }
   };
+
   // Call searchAPI when component is first rendered. BAD CODE!!
 
   useEffect(() => {
